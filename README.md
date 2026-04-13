@@ -10,11 +10,11 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 This data is for educational and testing purposes only. Crypto markets involve risk. The author is not responsible for any financial losses incurred from the use of this data.
 
 ## Format
-**Asset:** Bitcoin (BTC) Prediction Markets 
-**Frequency:** 5-minute snapshots 
-**Format:** Apache Parquet (highly compressed, fast to load in Python/R) 
-**Content:** Unix timestamp, slug, asset id, top 100 bids, 100 asks, raw orderbook
-**File Name:** slug_time-of-the-save (unix time)
+- **Asset:** Bitcoin (BTC) Prediction Markets 
+- **Frequency:** 5-minute snapshots 
+- **Format:** Apache Parquet (highly compressed, fast to load in Python/R) 
+- **Content:** Unix timestamp, slug, asset id, top 100 bids, 100 asks, raw orderbook
+- **File Name:** slug_time-of-the-save (unix time)
 
 Check the *How to parse* section for more info.
 For the orderbook structure and use, check out the official Polymarket documentation:
