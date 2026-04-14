@@ -25,6 +25,9 @@ For the orderbook structure and use, check out the official Polymarket documenta
 I subscribe to the BTC5min market via [websocket](https://docs.polymarket.com/market-data/websocket/overview) and save every change to the order book; every 300 updates, I create a parquet file with the data received. 
 I automatically switch to the current 5min market: therefore, the data of the given market started from when that market begins.
 
+## How to download the data
+Click on the green button Code and then selecet Download zip.
+
 ## How to parse
 ### Python
 You would need pandas, pyarrow.
